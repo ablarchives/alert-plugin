@@ -1,0 +1,43 @@
+/**
+ * SITE ALERTS
+ * Alerts are shown briefly at the top of the site
+ */
+#alert-popup {
+	position: fixed;
+	top: 15px;
+	right: 15px;
+	width: 300px;
+	height: auto;
+	z-index: 999999;
+}
+#alert-popup .alert {
+	box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+#alert-popup .alert.alert-success {
+	background-color: #69dd9a;
+	border-color: #27ae60;
+	color: #186c3c;
+	padding: 14px 15px 12px;
+	line-height: 140%;
+}
+#alert-popup .alert.alert-info {
+	background-color: #75b9e7;
+	border-color: #2980b9;
+	color: #144c72;
+	padding: 14px 15px 12px;
+	line-height: 140%;
+}
+#alert-popup .alert.alert-warning {
+	background-color: #f5d657;
+	border-color: #f39c12;
+	color: #705b07;
+	padding: 14px 15px 12px;
+	line-height: 140%;
+}
+#alert-popup .alert.alert-danger {
+	background-color: #ef8b80;
+	border-color: #c0392b;
+	color: #77180f;
+	padding: 14px 15px 12px;
+	line-height: 140%;
+}

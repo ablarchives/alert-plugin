@@ -1,0 +1,9 @@
+<div class="alert alert-{{ alert.type ?: 'info' }}" style="display:none;">
+	{{ alert.message }}
+</div>
+
+<script type="text/javascript">
+	$('#alert-popup .alert').fadeIn(200, function() {
+		$(this).delay(5000).fadeOut(400);
+	});
+</script>
