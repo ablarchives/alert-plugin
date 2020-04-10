@@ -45,7 +45,7 @@ class Alert extends ComponentBase
         $this->page['alert'] = $alert;
 
         return [
-            '#alert-popup' => $this->renderPartial('@alert'),
+            '#alert-popup' => $this->renderPartial('alert::alert'),
         ];
     }
 
