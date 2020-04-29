@@ -18,7 +18,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'Alert',
             'description' => 'A simple front-end alert plugin.',
-            'author'      => 'Albrightlabs',
+            'author'      => 'Albright Labs',
             'icon'        => 'icon-star'
         ];
     }
